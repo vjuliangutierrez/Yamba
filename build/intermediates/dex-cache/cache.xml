@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/export/estudiantes/dairo.garcia/Descargas/Yamba/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/export/estudiantes/dairo.garcia/Descargas/Yamba/app/build/intermediates/pre-dexed/debug/classes-2c90f062655fe6d5cb532fbc2d80e9ef213ed4de.jar" />
+    </item>
+    <item
+        jar="/export/estudiantes/dairo.garcia/Descargas/Yamba/app/libs/yambaclientlib.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="564ffd3f1dc6779da46f36e4cb78854ee45e6a1b">
+        <dex dex="/export/estudiantes/dairo.garcia/Descargas/Yamba/app/build/intermediates/pre-dexed/debug/yambaclientlib-d6e18da7869f74d89de9508674323c9e33b2a312.jar" />
+    </item>
+    <item
+        jar="/export/estudiantes/dairo.garcia/Descargas/Yamba/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/export/estudiantes/dairo.garcia/Descargas/Yamba/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-c5ecba59541851ed031fc64ff283ff9fa2a93139.jar" />
+    </item>
+    <item
+        jar="/export/estudiantes/dairo.garcia/Descargas/Yamba/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/export/estudiantes/dairo.garcia/Descargas/Yamba/app/build/intermediates/pre-dexed/debug/classes-c4a0a07fb269bb2722edcf54c2e927f7bbef584d.jar" />
+    </item>
+    <item
+        jar="/export/estudiantes/dairo.garcia/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/export/estudiantes/dairo.garcia/Descargas/Yamba/staticfragment/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-4822769e2e62ddfd513486a035730c97d463d397.jar" />
+    </item>
+    <item
+        jar="/export/estudiantes/dairo.garcia/Descargas/Yamba/staticfragment/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/export/estudiantes/dairo.garcia/Descargas/Yamba/staticfragment/build/intermediates/pre-dexed/debug/classes-92f8dbb854d1c86cf2a2da641b7be74235d840ee.jar" />
+    </item>
+    <item
+        jar="/export/estudiantes/dairo.garcia/Descargas/Yamba/staticfragment/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/export/estudiantes/dairo.garcia/Descargas/Yamba/staticfragment/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-f6ecc2d42d8ae3794fe807a14460f092f4821f74.jar" />
+    </item>
+    <item
+        jar="/export/estudiantes/dairo.garcia/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/export/estudiantes/dairo.garcia/Descargas/Yamba/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-d0bdeb330c78427c752bc44685e87ada1fe6a129.jar" />
+    </item>
+    <item
+        jar="/export/estudiantes/dairo.garcia/Descargas/Yamba/staticfragment/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/export/estudiantes/dairo.garcia/Descargas/Yamba/staticfragment/build/intermediates/pre-dexed/debug/classes-da4698e439891480dac8bf6837b73320ce10ffdb.jar" />
+    </item>
+
+</items>

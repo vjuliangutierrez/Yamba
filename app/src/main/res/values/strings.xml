@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Yamba­Gr1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_publicacion">Publicar</string>
+    <string name="hint_estado">Que deseas publicar?</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
