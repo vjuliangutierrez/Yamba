@@ -1,4 +1,5 @@
 package co.edu.udea.cmovil.gr1.yamba;
+import android.content.Context;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -9,6 +10,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -28,6 +30,44 @@ public class EstadoFragment extends Fragment implements View.OnClickListener {
     private Button buttonPublicar;
     private EditText publicacion;
     private TextView caracteresRestantes;
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        Log.d(TAG, "onDestroyView");
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        Log.d(TAG, "onStart");
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        Log.d(TAG, "onResume");
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        Log.d(TAG, "onPause");
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        Log.d(TAG, "onStop");
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        Log.d(TAG, "onDestroy");
+    }
+
+
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -68,17 +108,22 @@ public class EstadoFragment extends Fragment implements View.OnClickListener {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
+        Log.d(TAG,"onCreate");
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
+
+        Log.d(TAG,"onCreateView");
         View view = inflater.inflate(R.layout.fragment_estado, container, false);
 
         buttonPublicar = (Button) view.findViewById(R.id.buttonPublicar);
         publicacion = (EditText) view.findViewById(R.id.publicacion);
         caracteresRestantes = (TextView) view.findViewById(R.id.caracteresRestantes);
 
+        buttonPublicar.setEnabled(false);
         buttonPublicar.setOnClickListener(this);
 
         publicacion.addTextChangedListener(new TextWatcher() {
@@ -100,7 +145,10 @@ public class EstadoFragment extends Fragment implements View.OnClickListener {
                     caracteresRestantes.setTextColor(Color.RED);
                 else if(contador >= 10  && contador <40)
                     caracteresRestantes.setTextColor(Color.rgb(255,165,0));
+                else if(contador < 140)
+                    buttonPublicar.setEnabled(true);
                 else
+                    buttonPublicar.setEnabled(false);
                     caracteresRestantes.setTextColor(Color.GREEN);
             }
         });
@@ -115,6 +163,8 @@ public class EstadoFragment extends Fragment implements View.OnClickListener {
 
         new Hilo().execute(estado);
 
+        InputMethodManager inputMethodManager = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+        inputMethodManager.hideSoftInputFromWindow(publicacion.getWindowToken(), 0);
     }
 
     private final class Hilo extends AsyncTask<String, Void, String> {
