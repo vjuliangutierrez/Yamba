@@ -1238,8 +1238,6 @@ containing a value of this type.
         public static final int abc_text_size_subtitle_material_toolbar=0x7f080022;
         public static final int abc_text_size_title_material=0x7f080023;
         public static final int abc_text_size_title_material_toolbar=0x7f080024;
-        public static final int activity_horizontal_margin=0x7f080025;
-        public static final int activity_vertical_margin=0x7f080026;
         public static final int dialog_fixed_height_major=0x7f080027;
         public static final int dialog_fixed_height_minor=0x7f080028;
         public static final int dialog_fixed_width_major=0x7f080029;
@@ -1314,7 +1312,6 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f09002e;
         public static final int action_mode_bar_stub=0x7f09002d;
         public static final int action_mode_close_button=0x7f090020;
-        public static final int action_settings=0x7f090043;
         public static final int activity_chooser_view_content=0x7f090021;
         public static final int always=0x7f090016;
         public static final int beginning=0x7f090013;
@@ -1331,7 +1328,6 @@ containing a value of this type.
         public static final int end=0x7f090014;
         public static final int expand_activities_button=0x7f090022;
         public static final int expanded_menu=0x7f090028;
-        public static final int fragment_status=0x7f090042;
         public static final int home=0x7f090004;
         public static final int homeAsUp=0x7f09000d;
         public static final int icon=0x7f090026;
@@ -1398,16 +1394,9 @@ containing a value of this type.
         public static final int abc_search_view=0x7f040015;
         public static final int abc_simple_dropdown_hint=0x7f040016;
         public static final int fragment_estado=0x7f040017;
-        public static final int new_activity_status=0x7f040018;
         public static final int support_simple_spinner_dropdown_item=0x7f040019;
     }
-    public static final class menu {
-        public static final int menu_estado=0x7f0d0000;
-    }
-    public static final class mipmap {
-        public static final int ic_launcher=0x7f030000;
-        public static final int navigationicon=0x7f030001;
-    }
+
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f0b0000;
         public static final int abc_action_bar_home_description_format=0x7f0b0001;
@@ -1425,17 +1414,10 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f0b000d;
         public static final int abc_shareactionprovider_share_with_application=0x7f0b000e;
         public static final int abc_toolbar_collapse_description=0x7f0b000f;
-        public static final int action_settings=0x7f0b0010;
-        public static final int app_name=0x7f0b0011;
-        public static final int button_publicacion=0x7f0b0012;
-        public static final int hello_blank_fragment=0x7f0b0013;
-        public static final int hello_world=0x7f0b0014;
-        public static final int hint_estado=0x7f0b0015;
     }
     public static final class style {
         /**  Customize your theme here. 
          */
-        public static final int AppTheme=0x7f0c0000;
         public static final int Base_TextAppearance_AppCompat=0x7f0c0001;
         public static final int Base_TextAppearance_AppCompat_Body1=0x7f0c0002;
         public static final int Base_TextAppearance_AppCompat_Body2=0x7f0c0003;
