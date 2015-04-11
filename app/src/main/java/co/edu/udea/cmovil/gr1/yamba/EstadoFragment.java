@@ -151,4 +151,5 @@ public class EstadoFragment extends Fragment implements View.OnClickListener {
             }
         }
     }
+    //ffs
 }
