@@ -1,1 +1,1 @@
-include ':app', ':staticfragment'
+include ':app'
