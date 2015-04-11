@@ -19,11 +19,6 @@ import android.widget.Toast;
 import com.marakana.android.yamba.clientlib.YambaClient;
 import com.marakana.android.yamba.clientlib.YambaClientException;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link EstadoFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class EstadoFragment extends Fragment implements View.OnClickListener {
 
     private static final String TAG = "EstadoFragment";
@@ -68,35 +63,6 @@ public class EstadoFragment extends Fragment implements View.OnClickListener {
     }
 
 
-
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment EstadoFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static EstadoFragment newInstance(String param1, String param2) {
-        EstadoFragment fragment = new EstadoFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
     public EstadoFragment() {
         // Required empty public constructor
     }
@@ -104,11 +70,6 @@ public class EstadoFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-
         Log.d(TAG,"onCreate");
     }
 
@@ -185,7 +146,7 @@ public class EstadoFragment extends Fragment implements View.OnClickListener {
         protected void onPostExecute(String resultado) {
             super.onPostExecute(resultado);
             Toast.makeText(EstadoFragment.this.getActivity(), resultado, Toast.LENGTH_LONG).show();
-            if(resultado == "Publicado"){
+            if(resultado.equals("Publicado")){
                 publicacion.setText("");
             }
         }
