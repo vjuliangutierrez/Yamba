@@ -4,4 +4,4 @@
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
 </menu>
-<!-- From: file:/export/estudiantes/dairo.garcia/Descargas/Yamba/app/src/main/res/menu/menu_estado.xml -->
+<!-- From: file:/D:/Drive/Aplicaciones-git/Yamba/app/src/main/res/menu/menu_estado.xml -->

@@ -4,7 +4,7 @@
 
     <fragment
         android:id="@+id/fragment_status"
-        android:name="co.edu.udea.cmovil.gr1.yamba.EstadoFragment"
+        android:name="co.edu.udea.cmovil.gr1.yamba.StatusFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

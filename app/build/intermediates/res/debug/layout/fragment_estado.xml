@@ -36,4 +36,4 @@
         android:layout_toRightOf="@+id/buttonPublicar"
         android:layout_toEndOf="@+id/buttonPublicar" />
 </RelativeLayout>
-<!-- From: file:/export/estudiantes/dairo.garcia/Descargas/Yamba/app/src/main/res/layout/fragment_estado.xml -->
+<!-- From: file:/D:/Drive/Aplicaciones-git/Yamba/app/src/main/res/layout/fragment_estado.xml -->
