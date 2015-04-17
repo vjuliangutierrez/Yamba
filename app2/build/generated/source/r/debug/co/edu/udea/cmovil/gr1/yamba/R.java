@@ -1315,8 +1315,6 @@ containing a value of this type.
         public static final int action_mode_bar_stub=0x7f0a002d;
         public static final int action_mode_close_button=0x7f0a0020;
         public static final int action_publicacion=0x7f0a0043;
-        public static final int action_purge=0x7f0a0045;
-        public static final int action_recargar=0x7f0a0044;
         public static final int action_settings=0x7f0a0042;
         public static final int activity_chooser_view_content=0x7f0a0021;
         public static final int always=0x7f0a0016;
