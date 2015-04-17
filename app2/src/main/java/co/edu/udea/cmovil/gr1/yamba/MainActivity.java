@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import java.sql.SQLOutput;
+
 
 public class MainActivity extends ActionBarActivity {
 
@@ -27,10 +29,10 @@ public class MainActivity extends ActionBarActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) { //
             case R.id.action_settings:
-                startActivity(new Intent(this, SettingsActivity.class)); //
-                return true; //
+                startActivity(new Intent(this, SettingsActivity.class));
+                return true;
             case R.id.action_publicacion:
-                startActivity(new Intent("com.marakana.android.yamba.action.publicacion"));
+                startActivity(new Intent(this, StatusActivity.class));
                 return true;
             default:
                 return false;

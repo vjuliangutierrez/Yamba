@@ -29,14 +29,6 @@ public class SettingsFragment extends PreferenceFragment implements SharedPrefer
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-
-        return inflater.inflate(R.layout.fragment_settings, container, false);
-    }
-
-
-    @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
 
     }

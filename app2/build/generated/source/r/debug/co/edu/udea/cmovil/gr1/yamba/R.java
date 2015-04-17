@@ -1435,11 +1435,12 @@ containing a value of this type.
         public static final int contraseña_summary=0x7f0c0014;
         public static final int hello_blank_fragment=0x7f0c0015;
         public static final int hint_estado=0x7f0c0016;
-        public static final int purge=0x7f0c0017;
+        public static final int limpiar=0x7f0c0017;
         public static final int recargar=0x7f0c0018;
-        public static final int title_activity_main=0x7f0c0019;
-        public static final int usuario=0x7f0c001a;
-        public static final int usuario_summary=0x7f0c001b;
+        public static final int status_update=0x7f0c0019;
+        public static final int title_activity_main=0x7f0c001a;
+        public static final int usuario=0x7f0c001b;
+        public static final int usuario_summary=0x7f0c001c;
     }
     public static final class style {
         /**  Customize your theme here. 

@@ -9,14 +9,22 @@
         android:icon="@mipmap/navigationicon"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+
         <activity
             android:name=".StatusActivity"
-            android:label="@string/app_name" >
+            android:label="@string/status_update" >
+            <intent-filter>
+                <action android:name="android.intent.action.action_publicacion"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
         </activity>
+
         <activity
-            android:name=".SettingsActivity"
+            android:name="co.edu.udea.cmovil.gr1.yamba.SettingsActivity"
             android:label="@string/app_name" >
         </activity>
+
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main" >
