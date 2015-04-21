@@ -347,8 +347,6 @@ int id action_mode_bar 0x7f0a002e
 int id action_mode_bar_stub 0x7f0a002d
 int id action_mode_close_button 0x7f0a0020
 int id action_publicacion 0x7f0a0043
-int id action_purge 0x7f0a0045
-int id action_recargar 0x7f0a0044
 int id action_settings 0x7f0a0042
 int id activity_chooser_view_content 0x7f0a0021
 int id always 0x7f0a0016
@@ -457,11 +455,12 @@ int string contraseña 0x7f0c0013
 int string contraseña_summary 0x7f0c0014
 int string hello_blank_fragment 0x7f0c0015
 int string hint_estado 0x7f0c0016
-int string purge 0x7f0c0017
+int string limpiar 0x7f0c0017
 int string recargar 0x7f0c0018
-int string title_activity_main 0x7f0c0019
-int string usuario 0x7f0c001a
-int string usuario_summary 0x7f0c001b
+int string status_update 0x7f0c0019
+int string title_activity_main 0x7f0c001a
+int string usuario 0x7f0c001b
+int string usuario_summary 0x7f0c001c
 int style AppTheme 0x7f0d0000
 int style Base_TextAppearance_AppCompat 0x7f0d0001
 int style Base_TextAppearance_AppCompat_Body1 0x7f0d0002
