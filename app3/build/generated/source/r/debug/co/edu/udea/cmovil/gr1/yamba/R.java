@@ -1337,7 +1337,6 @@ containing a value of this type.
         public static final int icon=0x7f0a0026;
         public static final int ifRoom=0x7f0a0018;
         public static final int image=0x7f0a0023;
-        public static final int itemServiceStart=0x7f0a0044;
         public static final int listMode=0x7f0a0009;
         public static final int list_item=0x7f0a0025;
         public static final int middle=0x7f0a0015;
@@ -1348,6 +1347,7 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f0a0006;
         public static final int publicacion=0x7f0a0040;
         public static final int radio=0x7f0a002b;
+        public static final int recargarServiceStart=0x7f0a0044;
         public static final int search_badge=0x7f0a0035;
         public static final int search_bar=0x7f0a0034;
         public static final int search_button=0x7f0a0036;

@@ -34,7 +34,7 @@ public class MainActivity extends ActionBarActivity {
             case R.id.action_publicacion:
                 startActivity(new Intent(this, StatusActivity.class));
                 return true;
-            case R.id.itemServiceStart:
+            case R.id.recargarServiceStart:
                 startService(new Intent(this, RefreshService.class));
                 return true;
             default:

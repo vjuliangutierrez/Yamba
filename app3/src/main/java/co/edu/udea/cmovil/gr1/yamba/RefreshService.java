@@ -3,7 +3,6 @@ package co.edu.udea.cmovil.gr1.yamba;
 import android.app.IntentService;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.IBinder;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.util.Log;
@@ -21,19 +20,14 @@ public class RefreshService extends IntentService {
     }
 
     @Override
-    public IBinder onBind(Intent intent) {
-        return null;
-    }
-
-    @Override
     protected void onHandleIntent(Intent intent) {
         Log.d(TAG, "onStarted");
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        final String username = prefs.getString("username", "");
-        final String password = prefs.getString("password", "");
+        final String username = prefs.getString("usuario", "");
+        final String password = prefs.getString("contraseña", "");
 
         if (TextUtils.isEmpty(username) || TextUtils.isEmpty(password)) {
-            Toast.makeText(this, "Por favor actualiza tu usuario y contraseña", Toast.LENGTH_LONG).show();
+            Log.e(TAG, "Por favor actualiza tu usuario y contraseña");
             return;
         }
 

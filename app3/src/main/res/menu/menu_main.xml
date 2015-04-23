@@ -14,7 +14,7 @@
         android:title="@string/button_publicacion"/>
 
     <item android:title="@string/recargar"
-        android:id="@+id/itemServiceStart"
+        android:id="@+id/recargarServiceStart"
         android:icon="@android:drawable/ic_menu_rotate"></item>
 
 
