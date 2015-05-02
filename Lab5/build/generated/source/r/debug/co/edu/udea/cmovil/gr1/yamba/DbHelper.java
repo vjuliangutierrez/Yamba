@@ -19,7 +19,7 @@ public class DbHelper extends SQLiteOpenHelper {
         String sql = String.format("create table %s (%s int primary key, %s text, %s text, %s int)",
         StatusContract.TABLE, StatusContract.Column.ID, StatusContract.Column.USER, StatusContract.Column.MESSAGE, StatusContract.Column.CREATED_AT);
         Log.d(TAG, "onCreate with SQL: " + sql);
-        db.execSQL(sql); //
+        db.execSQL(sql);
     }
 
     // Es llamado siempre que una version existente != nueva version, i.e. cambio de schema

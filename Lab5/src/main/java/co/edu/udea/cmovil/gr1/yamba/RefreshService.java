@@ -50,7 +50,7 @@ public class RefreshService extends IntentService {
 
                 Uri uri = getContentResolver().insert(StatusContract.CONTENT_URI, values);
                 if (uri != null) {
-                    count++; //
+                    count++;
                     Log.d(TAG, String.format("%s: %s", status.getUser(), status.getMessage()));
                 }
             }
