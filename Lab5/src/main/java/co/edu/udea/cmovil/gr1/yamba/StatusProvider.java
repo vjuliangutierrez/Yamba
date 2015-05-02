@@ -15,6 +15,7 @@ import android.util.Log;
 import java.io.FileNotFoundException;
 
 public class StatusProvider extends ContentProvider {
+
     private static final String TAG = StatusProvider.class.getSimpleName();
     private DbHelper dbHelper;
 
@@ -136,7 +137,7 @@ public class StatusProvider extends ContentProvider {
                 break;
             default:
                 throw new IllegalArgumentException("Illegal uri: " + uri);
-       }
+        }
         SQLiteDatabase db = dbHelper.getWritableDatabase();
         int ret = db.update(StatusContract.TABLE, values, where, selectionArgs);
         if(ret>0) {

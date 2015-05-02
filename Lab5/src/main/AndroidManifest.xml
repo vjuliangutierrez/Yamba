@@ -12,11 +12,6 @@
 
         <service android:name=".RefreshService" />
 
-        <provider
-            android:name="co.edu.udea.cmovil.gr1.yamba.StatusProvider"
-            android:authorities="co.edu.udea.cmovil.gr1.yamba.StatusProvider"
-            android:exported="false" />
-
         <activity
             android:name=".StatusActivity"
             android:label="@string/status_update" >
