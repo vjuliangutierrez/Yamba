@@ -29,7 +29,7 @@ public class TimelineFragment extends ListFragment implements LoaderManager.Load
             R.id.list_item_text_user,
             R.id.list_item_text_message,
             R.id.list_item_text_created_at,
-            //R.id.list_item_freshness
+            R.id.list_item_freshness
     };
 
     private static final int LOADER_ID = 42;
@@ -61,10 +61,10 @@ public class TimelineFragment extends ListFragment implements LoaderManager.Load
                     ((TextView) view).setText(relTime);
                     return true;
 
-                /*case R.id.list_item_freshness:
+                case R.id.list_item_freshness:
                     timestamp = cursor.getLong(columnIndex);
                     ((FreshnessView) view).setTimestamp(timestamp);
-                    return true;*/
+                    return true;
                 default:
                     return false;
             }

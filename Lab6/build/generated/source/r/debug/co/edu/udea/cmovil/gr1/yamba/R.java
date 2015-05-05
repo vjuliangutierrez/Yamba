@@ -1309,14 +1309,14 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f0a001f;
         public static final int action_bar_title=0x7f0a001e;
         public static final int action_context_bar=0x7f0a0032;
-        public static final int action_limpiar=0x7f0a004b;
+        public static final int action_limpiar=0x7f0a004c;
         public static final int action_menu_divider=0x7f0a0002;
         public static final int action_menu_presenter=0x7f0a0003;
         public static final int action_mode_bar=0x7f0a002e;
         public static final int action_mode_bar_stub=0x7f0a002d;
         public static final int action_mode_close_button=0x7f0a0020;
-        public static final int action_publicacion=0x7f0a0049;
-        public static final int action_settings=0x7f0a0048;
+        public static final int action_publicacion=0x7f0a004a;
+        public static final int action_settings=0x7f0a0049;
         public static final int activity_chooser_view_content=0x7f0a0021;
         public static final int always=0x7f0a0016;
         public static final int beginning=0x7f0a0013;
@@ -1343,6 +1343,7 @@ containing a value of this type.
         public static final int listMode=0x7f0a0009;
         public static final int list_item=0x7f0a0025;
         public static final int list_item_content=0x7f0a0044;
+        public static final int list_item_freshness=0x7f0a0048;
         public static final int list_item_text_created_at=0x7f0a0046;
         public static final int list_item_text_message=0x7f0a0047;
         public static final int list_item_text_user=0x7f0a0045;
@@ -1354,7 +1355,7 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f0a0006;
         public static final int publicacion=0x7f0a0042;
         public static final int radio=0x7f0a002b;
-        public static final int recargarServiceStart=0x7f0a004a;
+        public static final int recargarServiceStart=0x7f0a004b;
         public static final int search_badge=0x7f0a0035;
         public static final int search_bar=0x7f0a0034;
         public static final int search_button=0x7f0a0036;

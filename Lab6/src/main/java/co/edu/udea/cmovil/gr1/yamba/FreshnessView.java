@@ -7,8 +7,9 @@ import android.graphics.Paint.Style;
 import android.util.AttributeSet;
 import android.view.View;
 
-public class FreshnessView  {
-   /* private static final int LINE_HEIGHT = 30;
+public class FreshnessView extends View {
+
+    private static final int LINE_HEIGHT = 30;
     private long timestamp = -1;
     private Paint paint;
 
@@ -36,5 +37,5 @@ public class FreshnessView  {
     public void setTimestamp(long timestamp) {
         this.timestamp = timestamp;
         this.invalidate();
-    }*/
+    }
 }
