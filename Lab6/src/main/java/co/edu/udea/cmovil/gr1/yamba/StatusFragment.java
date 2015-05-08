@@ -1,4 +1,5 @@
 package co.edu.udea.cmovil.gr1.yamba;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -23,6 +24,8 @@ import android.widget.Toast;
 import com.marakana.android.yamba.clientlib.YambaClient;
 import com.marakana.android.yamba.clientlib.YambaClientException;
 
+
+
 public class StatusFragment extends Fragment implements View.OnClickListener {
 
     private static final String TAG = "StatusFragment";
@@ -30,6 +33,7 @@ public class StatusFragment extends Fragment implements View.OnClickListener {
     private EditText publicacion;
     private TextView caracteresRestantes;
     SharedPreferences prefs;
+    ProgressDialog progress;
 
     public StatusFragment() {
         // Required empty public constructor
@@ -89,10 +93,29 @@ public class StatusFragment extends Fragment implements View.OnClickListener {
         String estado = publicacion.getText().toString();
         Log.d(TAG, "Publicacion: " + estado);
 
+        launchRingDialog(v);
         new Hilo().execute(estado);
+
 
         InputMethodManager inputMethodManager = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
         inputMethodManager.hideSoftInputFromWindow(publicacion.getWindowToken(), 0);
+    }
+
+    public void launchRingDialog(View view) {
+        final ProgressDialog ringProgressDialog = ProgressDialog.show(getActivity(), "Por favor espere", "Publicando", true);
+        ringProgressDialog.setCancelable(true);
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    Thread.sleep(1000);
+                } catch (Exception e) {
+
+                }
+                ringProgressDialog.dismiss();
+            }
+        }).start();
     }
 
     private final class Hilo extends AsyncTask<String, Void, String> {
@@ -115,6 +138,7 @@ public class StatusFragment extends Fragment implements View.OnClickListener {
                 e.printStackTrace();
                 return "Fallo al publicar en el servicio de Yamba";
             }
+
         }
 
         @Override
@@ -125,6 +149,7 @@ public class StatusFragment extends Fragment implements View.OnClickListener {
                 publicacion.setText("");
             }
         }
+
     }
 
     @Override
