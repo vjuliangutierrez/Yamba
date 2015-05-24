@@ -5,12 +5,12 @@
 
     <item android:id="@+id/action_settings"
         android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/action_publicacion"
         android:icon="@android:drawable/ic_menu_add"
-        android:showAsAction="always|withText"
+        app:showAsAction="always"
         android:title="@string/button_publicacion"/>
 
     <item android:title="@string/recargar"
