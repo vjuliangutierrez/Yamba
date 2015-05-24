@@ -2,39 +2,95 @@
 <items version="2" >
 
     <item
-        jar="D:\Drive\Aplicaciones-git\Yamba\Lab5\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="D:\Drive\Aplicaciones-git\Yamba\Lab5\build\intermediates\pre-dexed\debug\classes-7bb97fe822b85b2672d643faf2303351aa5fb2af.jar" />
-    </item>
-    <item
-        jar="D:\Drive\Aplicaciones-git\Yamba\Lab5\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="D:\Drive\Aplicaciones-git\Yamba\Lab5\build\intermediates\pre-dexed\debug\classes-1f45f645224b9da2751528e32c70760181621c48.jar" />
-    </item>
-    <item
-        jar="D:\Drive\Aplicaciones-git\Yamba\Lab5\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="D:\Drive\Aplicaciones-git\Yamba\Lab5\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-13facc4c10459c3ce4f058f7634e543846c44d1d.jar" />
-    </item>
-    <item
-        jar="D:\Drive\Aplicaciones-git\Yamba\Lab5\libs\yambaclientlib.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="564ffd3f1dc6779da46f36e4cb78854ee45e6a1b">
-        <dex dex="D:\Drive\Aplicaciones-git\Yamba\Lab5\build\intermediates\pre-dexed\debug\yambaclientlib-9f3db111e9118695bc06252f65dfdc9046e08e54.jar" />
-    </item>
-    <item
-        jar="C:\Users\Administrador\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jar="/root/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="D:\Drive\Aplicaciones-git\Yamba\Lab5\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-9ae015d7c5b2b0b35bd0fd51678e20f076b6bd4f.jar" />
+        <dex dex="/home/telematica/Yamba/Lab7/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-77286b450018c765668e673a0baa91c48ed88e84.jar" />
+    </item>
+    <item
+        jar="/home/telematica/Yamba/Lab7-8/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/telematica/Yamba/Lab7-8/build/intermediates/pre-dexed/debug/classes-69588cbdf4633c1cfa62d7da3f982fbd5d7579fd.jar" />
+    </item>
+    <item
+        jar="/home/telematica/Yamba/Lab6/libs/yambaclientlib.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="564ffd3f1dc6779da46f36e4cb78854ee45e6a1b">
+        <dex dex="/home/telematica/Yamba/Lab6/build/intermediates/pre-dexed/debug/yambaclientlib-ed7a7c51f74e62af3c6377ae78f96fced2514921.jar" />
+    </item>
+    <item
+        jar="/home/telematica/Yamba/Lab7-8/libs/yambaclientlib.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="564ffd3f1dc6779da46f36e4cb78854ee45e6a1b">
+        <dex dex="/home/telematica/Yamba/Lab7-8/build/intermediates/pre-dexed/debug/yambaclientlib-41cd3bbb8d7ef486c1c52a389da0b16c07e657a3.jar" />
+    </item>
+    <item
+        jar="/home/telematica/Yamba/Lab7-8/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/telematica/Yamba/Lab7-8/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-ce7ae6f3abe541c45c4ba297efc28bc9915fe75d.jar" />
+    </item>
+    <item
+        jar="/home/telematica/Yamba/Lab7/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/telematica/Yamba/Lab7/build/intermediates/pre-dexed/debug/classes-cc4beb6129f1b6b038af9386d5999355618d586e.jar" />
+    </item>
+    <item
+        jar="/home/telematica/Yamba/Lab6/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/telematica/Yamba/Lab6/build/intermediates/pre-dexed/debug/classes-331febe412385fab9817fecb889452cea226a5a1.jar" />
+    </item>
+    <item
+        jar="/home/telematica/Yamba/Lab6/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/telematica/Yamba/Lab6/build/intermediates/pre-dexed/debug/classes-53ddf2225a16509eda9232d17e390472450f0332.jar" />
+    </item>
+    <item
+        jar="/home/telematica/Yamba/Lab7/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/telematica/Yamba/Lab7/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-2d36e0c63046186c0b4997aef3f968733e8f3b93.jar" />
+    </item>
+    <item
+        jar="/home/telematica/Yamba/Lab7-8/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/telematica/Yamba/Lab7-8/build/intermediates/pre-dexed/debug/classes-f2ce0cdd4b02682fdc8c2107b10e582b2f874286.jar" />
+    </item>
+    <item
+        jar="/home/telematica/Yamba/Lab7/libs/yambaclientlib.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="564ffd3f1dc6779da46f36e4cb78854ee45e6a1b">
+        <dex dex="/home/telematica/Yamba/Lab7/build/intermediates/pre-dexed/debug/yambaclientlib-8993d1947084d259a53e8603913745f27ab8bae4.jar" />
+    </item>
+    <item
+        jar="/home/telematica/Yamba/Lab6/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/telematica/Yamba/Lab6/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-e1a96a8820437636466bc050a6b62847184cacad.jar" />
+    </item>
+    <item
+        jar="/home/telematica/Yamba/Lab7/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/telematica/Yamba/Lab7/build/intermediates/pre-dexed/debug/classes-d55f3007572a6551dacf84e63e686254131f321b.jar" />
     </item>
 
 </items>
