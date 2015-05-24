@@ -37,6 +37,7 @@ public class RefreshService extends IntentService {
         ContentValues values = new ContentValues();
 
         YambaClient cloud = new YambaClient(username, password);
+
         try {
             int count = 0;
             List<Status> timeline = cloud.getTimeline(20);
@@ -53,6 +54,9 @@ public class RefreshService extends IntentService {
                     count++;
                     Log.d(TAG, String.format("%s: %s", status.getUser(), status.getMessage()));
                 }
+            }
+            if (count > 0) {
+                sendBroadcast(new Intent("co.edu.udea.cmovil.gr1.yamba.action.NEW_STATUSES").putExtra("count", count));
             }
         } catch (YambaClientException e) { //
             Log.e(TAG, "Fallo al obtener actualizacion de estados", e);
