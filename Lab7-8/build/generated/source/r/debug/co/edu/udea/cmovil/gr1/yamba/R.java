@@ -1411,6 +1411,7 @@ containing a value of this type.
         public static final int fragment_status=0x7f040019;
         public static final int list_item=0x7f04001a;
         public static final int support_simple_spinner_dropdown_item=0x7f04001b;
+        public static final int widget=0x7f04001c;
     }
     public static final class menu {
         public static final int menu_main=0x7f0e0000;
@@ -1692,6 +1693,7 @@ containing a value of this type.
     }
     public static final class xml {
         public static final int settings=0x7f060000;
+        public static final int yamba_widget=0x7f060001;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.

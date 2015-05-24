@@ -16,12 +16,12 @@ public class BootReceiver extends BroadcastReceiver{
     @Override
     public void onReceive(Context context, Intent intent) {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
-        long interval = Long.parseLong(prefs.getString("interval", Long.toString(DEFAULT_INTERVAL))); //
+        long interval = Long.parseLong(prefs.getString("interval", Long.toString(DEFAULT_INTERVAL)));
 
         PendingIntent operation = PendingIntent.getService(context, -1,new Intent(context, RefreshService.class), PendingIntent.FLAG_UPDATE_CURRENT); //
-        AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE); //
+        AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
 
-        if (interval == 0) { //
+        if (interval == 0) {
             alarmManager.cancel(operation);
             Log.d(TAG, "cancelling repeat operation");
         } else {
