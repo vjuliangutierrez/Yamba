@@ -40,24 +40,33 @@
         <activity android:name=".DetailsActivity" >
         </activity>
 
-        <receiver android:name=".BootReceiver">
+
+        <receiver android:name="co.edu.udea.cmovil.gr1.yamba.BootReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="co.edu.udea.cmovil.gr1.yamba.action.UPDATED_INTERVAL" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="co.edu.udea.cmovil.gr1.yamba.NotificationReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="co.edu.udea.cmovil.gr1.yamba.action.NEW_STATUSES" />
             </intent-filter>
         </receiver>
 
         <receiver
             android:name="co.edu.udea.cmovil.gr1.yamba.YambaWidget"
             android:exported="false" >
-
             <intent-filter>
-                <action android:name= "co.edu.udea.cmovil.gr1.yamba.action.NEW_STATUSES" />
+                <action android:name="co.edu.udea.cmovil.gr1.yamba.action.NEW_STATUSES" />
             </intent-filter>
-
             <intent-filter>
-                <action android:name= "android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
-
             <meta-data
                 android:name="android.appwidget.provider"
                 android:resource="@xml/yamba_widget" />
