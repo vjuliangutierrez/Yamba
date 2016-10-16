@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="co.edu.udea.cmovil.gr1.yamba.MainActivity">
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_publicacion"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always|withText"
+        android:title="@string/button_publicacion"/>
+
+    <item android:title="@string/recargar"
+        android:id="@+id/recargarServiceStart"
+        android:icon="@android:drawable/ic_menu_rotate"></item>
+
+
+</menu>
+<!-- From: file:/D:/Drive/Aplicaciones-git/Yamba/Lab4/src/main/res/menu/menu_main.xml -->

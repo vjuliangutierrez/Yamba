@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.edu.udea.cmovil.gr1.yamba" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/navigationicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <service android:name=".RefreshService" />
+
+        <provider
+            android:name="co.edu.udea.cmovil.gr1.yamba.StatusProvider"
+            android:authorities="co.edu.udea.cmovil.gr1.yamba.StatusProvider"
+            android:exported="false" />
+
+        <activity
+            android:name=".StatusActivity"
+            android:label="@string/status_update" >
+        </activity>
+
+        <activity
+            android:name="co.edu.udea.cmovil.gr1.yamba.SettingsActivity"
+            android:label="@string/action_settings" >
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DetailsActivity" >
+        </activity>
+
+
+        <receiver android:name="co.edu.udea.cmovil.gr1.yamba.BootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="co.edu.udea.cmovil.gr1.yamba.action.UPDATED_INTERVAL" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="co.edu.udea.cmovil.gr1.yamba.NotificationReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="co.edu.udea.cmovil.gr1.yamba.action.NEW_STATUSES" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="co.edu.udea.cmovil.gr1.yamba.YambaWidget"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="co.edu.udea.cmovil.gr1.yamba.action.NEW_STATUSES" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/yamba_widget" />
+        </receiver>
+
+
+    </application>
+
+</manifest>

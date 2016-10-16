@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".EstadoActivity"
+    android:background="#fffff6a4">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_publicacion"
+        android:id="@+id/buttonPublicar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/publicacion"
+        android:hint="@string/hint_estado"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/buttonPublicar"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/caracteresRestantes"
+        android:layout_alignBottom="@+id/buttonPublicar"
+        android:layout_alignRight="@+id/publicacion"
+        android:layout_alignEnd="@+id/publicacion"
+        android:layout_toRightOf="@+id/buttonPublicar"
+        android:layout_toEndOf="@+id/buttonPublicar" />
+</RelativeLayout>
+<!-- From: file:/D:/Drive/Aplicaciones-git/Yamba/Lab1-2/src/main/res/layout-land/fragment_estado.xml -->
